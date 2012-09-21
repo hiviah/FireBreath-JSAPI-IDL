@@ -64,6 +64,8 @@ You can also subclass the generated toplevel class to add methods:
         {
             FB::variant parentVariant = MyNamespace::JSAPIClass::toVariant();
             parentVariant["magic"] = automagically(memberDesperatelyNeedingMagic);
+
+            return parentVariant;
         }
     };
 
