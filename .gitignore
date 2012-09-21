@@ -1,0 +1,8 @@
+*.py[co]
+*.o
+.*.swp
+
+example/*.js
+example/*.h
+example/*.cpp
+README.html
